@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
 
 function ExampleComponent(props) {
 
@@ -18,7 +19,6 @@ function ExampleComponent(props) {
     setButton("No");
     console.log({ button });
   };
-
 
   return(
     <React.Fragment>
