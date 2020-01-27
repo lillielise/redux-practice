@@ -1,6 +1,6 @@
 import React from 'react';
-import ExampleComponent from './example-component';
-import List from './list';
+import ExampleComponent from './Example-component';
+import List from './List';
 
 function App() {
 
